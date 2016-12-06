@@ -44,4 +44,8 @@ class Json_Parser
 			raise 'json is not hash!'
 		end
 	end
+
+	def print_json_pretty(json)
+		puts JSON.pretty_generate(json)
+	end
 end
