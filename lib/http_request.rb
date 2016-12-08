@@ -12,7 +12,8 @@ class Http_Request
 		end
 
 		url = @url + request_url
-		response = RestClient.get(url)
+		header = @header
+		response = RestClient.get(url, header)
 		@data = JSON.parse response.body
 		return @data
 	end

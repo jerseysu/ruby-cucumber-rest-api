@@ -7,7 +7,7 @@ Before do
 		"type" => "object"
 	}
 	
-	@req = Http_Request.new url, ' '
+	@req = Http_Request.new url, {}
 end
 
 After do
