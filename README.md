@@ -1,5 +1,8 @@
 # ruby-cucumber-rest-api
 > 這是一個用中文寫測試案例的練習
+> HOW TO WRITE TEST CASES BY CHINESE
+
+![](demo.gif)
 
 ## Requirements
 
@@ -12,8 +15,8 @@
 
 ```
 # Install Ruby by rbenv
-$rbenv install 2.4.1
-$rbenv rehash
+$ rbenv install 2.4.1
+$ rbenv rehash
 
 # Install Bundler 
 $ gem install bundler
