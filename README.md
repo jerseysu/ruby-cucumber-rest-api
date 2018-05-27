@@ -2,6 +2,8 @@
 > 這是一個用中文寫測試案例的練習
 > HOW TO WRITE TEST CASES BY CHINESE
 
+[![Build Status](https://travis-ci.com/jerseysu/ruby-cucumber-rest-api.svg?branch=master)](https://travis-ci.com/jerseysu/ruby-cucumber-rest-api)
+
 ![](demo.gif)
 
 ## Requirements
