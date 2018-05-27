@@ -1,0 +1,8 @@
+services:
+  - docker
+
+script:
+  # Run Test
+  - cucumber
+  # Build Image
+  - docker build -t ruby-cucumber-rest-api .
